@@ -1,13 +1,16 @@
 import { React } from "react";
+import { AboutMe } from "../AboutMe/AboutMe";
+import { Contacto } from "../Contacto/Contacto";
+
 import "./NavBar.css";
 
 export const NavBar = () => {
     return (
         <div>
             <ul>
-                <li>Sobre Mi</li>
-                <li>Proyectos</li>
-                <li>Contacto</li>
+                <li> <AboutMe /> </li>
+                <li> Proyectos </li>
+                <li> <Contacto /> </li>
             </ul>
         </div>
     )
