@@ -5,10 +5,10 @@ export const NavBar = () => {
     return (
         <div>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Sobre Mi</li>
+                <li>Proyectos</li>
+                <li>Contacto</li>
             </ul>
         </div>
     )
-}
+};
