@@ -13,7 +13,7 @@ export const NavBar = () => {
         <div>
             <ul>
             {/* <Router> */}
-                <li><a href=""><AboutMe /></a></li>
+                <li><a href={<AboutMe />}>About Me</a></li>
                 <li> <Proyecto1 /> </li>
                 <li> <Proyecto2 /> </li>
                 <li> <Proyecto3 /> </li>
