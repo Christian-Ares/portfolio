@@ -10,8 +10,8 @@ import "./NavBar.css";
 
 export const NavBar = () => {
     return (
-        <div>
-            <ul>
+        <div className="navbar">
+            <ul className="navbarLinks">
             {/* <Router> */}
                 <li><a href={<AboutMe />}>About Me</a></li>
                 <li><a href={<Skills />}>Skills</a></li>

@@ -1,0 +1,15 @@
+.logos{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.githubLogo{
+    width: auto;
+    height: 3vh;
+}
+
+.linkedinLogo{
+width: auto;
+height: 3vh;
+}
