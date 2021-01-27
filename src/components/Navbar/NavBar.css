@@ -5,7 +5,8 @@
     flex-direction: row;
     justify-content: space-between;
     float: right;
-    }
+    background-color: aqua;
+}
     
 .navbarLinks li{
     padding-left: 10px;

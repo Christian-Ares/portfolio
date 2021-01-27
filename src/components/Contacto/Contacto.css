@@ -1,7 +1,10 @@
+.contact{
+    background-color: aquamarine;
+}
+
 .logos{
     display: flex;
     flex-direction: row;
-    
 }
 
 .githubLogo{

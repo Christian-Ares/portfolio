@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import './Intereses.css'
 
 export const Intereses = () => {
     return (
-        <div>
-            <h1>Interests</h1>
+        <div className="interests">
+            <h1>Currrent Interests</h1>
         </div>
     )
 };
