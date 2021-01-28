@@ -10,7 +10,7 @@ import "./NavBar.css";
 
 export const NavBar = () => {
     return (
-        <div className="navbar">
+        <nav className="navbar">
             <ul className="navbarLinks">
             {/* <Router> */}
                 <li><a href={<AboutMe />}>About Me</a></li>
@@ -19,6 +19,6 @@ export const NavBar = () => {
                 <li><a href={<Proyectos />}>Projects</a></li>
             {/* </Router>     */}
             </ul>
-        </div>
+        </nav>
     )
 };

@@ -7,6 +7,7 @@ import { Footer } from './components/Footer/Footer';
 import { Proyectos } from './components/Projects/Proyectos';
 
 import './App.css';
+import { NavBar } from './components/Navbar/NavBar';
 
 
 
@@ -14,7 +15,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/* <Header /> */}
+      <NavBar />
       <AboutMe />
       <Skills />
       <Intereses />
