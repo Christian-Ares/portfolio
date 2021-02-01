@@ -1,4 +1,20 @@
 .aboutMe{
     background-color: blueviolet;
     margin-top: 6vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionText{
+    display: flex;
+    width: 250px;
+}
+
+.sectionText p{
+    justify-content: flex-end;
+}
+
+.photo{
+    width: auto;
+    height: 150px;
 }
