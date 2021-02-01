@@ -4,7 +4,7 @@ import './Contacto.css'
 
 export const Contacto = () => {
     return (
-        <div className="contact">
+        <div className="contact" id="contact">
             <h1>Contact me</h1>
                 <div className="logos">
                     <a href="mailto:christianaresvillan@gmail.com"><img src="/images/gmail_logo.png" alt="Gmail Logo" className="logo"></img></a>

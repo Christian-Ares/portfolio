@@ -1,8 +1,9 @@
 import { React } from "react";
-import { AboutMe } from "../AboutMe/AboutMe";
+
 import { Contacto } from "../Contacto/Contacto";
 import { Skills } from "../Skills/Skills";
 import { Proyectos } from "../Projects/Proyectos"
+import { Link } from "react-scroll"
 
 import './NavBar.css'
 
@@ -13,10 +14,22 @@ export const NavBar = () => {
         <nav className="navbar">
             <ul className="navbarLinks">
             {/* <Router> */}
-                <li><a href={<AboutMe />}>About Me</a></li>
+                <li><Link                       
+                    activeClass="active"
+                    to="aboutMe"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={100} >About Me</Link></li>
                 <li><a href={<Skills />}>Skills</a></li>
                 <li><a href={<Proyectos />}>Projects</a></li>
-                <li><a href={<Contacto />}>Contact</a></li>
+                <li><Link                       
+                    activeClass="active"
+                    to="contact"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={100} >Contact</Link></li>
             {/* </Router>     */}
             </ul>
         </nav>
