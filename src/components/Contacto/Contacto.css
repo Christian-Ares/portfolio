@@ -5,14 +5,12 @@
 .logos{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+
 }
 
-.githubLogo{
+.logo{
     width: auto;
-    height: 3vh;
-}
-
-.linkedinLogo{
-width: auto;
-height: 3vh;
+    height: 3vh; 
+    padding: 0 8px;
 }

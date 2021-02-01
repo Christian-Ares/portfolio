@@ -3,8 +3,7 @@
     align-items: center;
     justify-items: center;
     flex-direction: row;
-    justify-content: space-between;
-    float: right;
+    justify-content: flex-end;
     background-color: aqua;
 }
     

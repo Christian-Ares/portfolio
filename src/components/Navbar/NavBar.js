@@ -15,8 +15,8 @@ export const NavBar = () => {
             {/* <Router> */}
                 <li><a href={<AboutMe />}>About Me</a></li>
                 <li><a href={<Skills />}>Skills</a></li>
-                <li><a href={<Contacto />}>Contact</a></li>
                 <li><a href={<Proyectos />}>Projects</a></li>
+                <li><a href={<Contacto />}>Contact</a></li>
             {/* </Router>     */}
             </ul>
         </nav>
