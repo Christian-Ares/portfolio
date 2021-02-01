@@ -1,16 +1,11 @@
 import { AboutMe } from './components/AboutMe/AboutMe';
 import { Skills } from './components/Skills/Skills';
 import { Intereses } from './components/Interests/Intereses';
-
 import { Contacto } from './components/Contacto/Contacto';
-
 import { Proyectos } from './components/Projects/Proyectos';
-
-import './App.css';
 import { NavBar } from './components/Navbar/NavBar';
 
-
-
+import './App.css';
 
 function App() {
   return (

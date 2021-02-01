@@ -1,3 +1,9 @@
 .projects{
     background-color: chartreuse;
 }
+
+.projects img{
+    width: 639px;
+    height: 397px;
+    padding-top: 10px;
+}
