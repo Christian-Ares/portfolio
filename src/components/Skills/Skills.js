@@ -16,6 +16,7 @@ export const Skills = () => {
             <span class="iconify" data-icon="logos:bootstrap" data-inline="false"></span>
             <span class="iconify" data-icon="logos:mongodb" data-inline="false"></span>
             <span class="iconify" data-icon="logos:git-icon" data-inline="false"></span>
+            <span class="iconify" data-icon="bytesize:github" data-inline="false"></span>
         </div>
     )
 };
