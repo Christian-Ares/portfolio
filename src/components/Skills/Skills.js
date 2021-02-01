@@ -13,6 +13,9 @@ export const Skills = () => {
             <span class="iconify" data-icon="logos:sass" data-inline="false"></span>
             <span class="iconify" data-icon="logos:nodejs" data-inline="false"></span>
             <span class="iconify" data-icon="vscode-icons:file-type-js-official" data-inline="false"></span>
+            <span class="iconify" data-icon="logos:bootstrap" data-inline="false"></span>
+            <span class="iconify" data-icon="logos:mongodb" data-inline="false"></span>
+            <span class="iconify" data-icon="logos:git-icon" data-inline="false"></span>
         </div>
     )
 };
