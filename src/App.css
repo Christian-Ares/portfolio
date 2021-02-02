@@ -16,3 +16,7 @@ ul {
   width: 60px;
   height: 60px;
 }
+
+img{
+  border-radius: 5px;
+}
