@@ -1,3 +1,9 @@
 .botones1{
     margin: 0 3px 0 3px;
 }
+
+tilty-img{
+    display: flex;
+    align-content: center;
+    
+}
