@@ -3,7 +3,6 @@ import React from 'react'
 import Tilty from 'react-tilty'
 
 
-
 export const Proyecto1 = () => {
 
     return (
@@ -19,4 +18,4 @@ export const Proyecto1 = () => {
            <Button variant="contained" color="primary" href="https://github.com/Christian-Ares/The-Legend-of-Ironhacker">Source Code</Button>
         </div>
     )
-}
+};
