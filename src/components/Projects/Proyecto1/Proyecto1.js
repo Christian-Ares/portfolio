@@ -10,7 +10,7 @@ export const Proyecto1 = () => {
         <div className="botones1">
                                     {/* Probar a ponerle un padding a la imagen para dejarla a la izquierda, hacer con todas las imagenes */}
             {/* <div className="tilty-img"> */}
-                <Tilty style={{width:369, heigth:397}} reset={true}>
+                <Tilty style={{width:639, heigth:397}} reset={true}>
                     <img src="/images/The-Legend-of-Ironhacker.jpg" alt="The Legend of Ironhacker" />
                 </Tilty>
             {/* </div>     */}

@@ -6,7 +6,7 @@ export const Proyecto2 = () => {
 
     return (
         <div>
-            <Tilty>
+            <Tilty style={{width:639, heigth:397}} reset={true}>
                 <img src="/images/MascotApp.png" alt="MascotApp" />
             </Tilty>
             <div></div>

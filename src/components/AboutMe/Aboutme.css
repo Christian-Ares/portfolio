@@ -1,19 +1,38 @@
 .aboutMe{
     background-color: blueviolet;
-    margin-top: 3vw;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
 }
 
 .container{
-    display: block;
+    display: flex;
 }
 
-.container span{
-
+.container article{
+    width: 639px;
 }
 
 .photo{
     width: auto;
     height: 250px;
+}
+
+.img-text{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+.button-text{
+    padding: 0 15px;
+    margin: 0 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-text button {
+    margin-top: 10px;
 }
