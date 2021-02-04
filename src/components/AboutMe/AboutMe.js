@@ -30,6 +30,7 @@ export const AboutMe = () => {
                             My goal is to work as a Full Stack Developer in a company where I can train and grow, both as a developer and as a person.
                             </p>
                             {/* <button>Resume</button> */}
+                            <Button>Resume</Button>
 
                         </div>
                     </article>
