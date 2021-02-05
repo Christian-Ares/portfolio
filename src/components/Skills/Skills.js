@@ -4,7 +4,7 @@ import './Skills.css'
 
 export const Skills = () => {
     return (
-        <div className="skills">
+        <div className="skills" id="skills">
             <h1>Skills</h1>
                     <div className="parent">
                         <span className="iconify span1" data-icon="logos:react" data-inline="false"></span>

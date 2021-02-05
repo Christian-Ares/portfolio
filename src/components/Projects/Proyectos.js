@@ -7,7 +7,7 @@ import './Proyectos.css'
 
 export const Proyectos = () => {
     return (
-        <div className="projects">
+        <div className="projects" id="projects">
             <div className="main">
                 <h1>Projects</h1>
                     <Proyecto1 />
@@ -16,4 +16,4 @@ export const Proyectos = () => {
             </div>
         </div>
     )
-}
+};

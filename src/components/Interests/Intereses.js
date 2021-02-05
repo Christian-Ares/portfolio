@@ -3,7 +3,7 @@ import './Intereses.css'
 
 export const Intereses = () => {
     return (
-        <div className="interests">
+        <div className="interests" id="interests">
             <h1>Current Interests</h1>
             <div className="parentSkills">
                 <span className="iconify span1" data-icon="logos:angular-icon" data-inline="false"></span>

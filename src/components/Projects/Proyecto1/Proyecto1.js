@@ -2,7 +2,6 @@ import { Button } from '@material-ui/core'
 import React from 'react'
 import Tilty from 'react-tilty'
 
-
 export const Proyecto1 = () => {
 
     return (

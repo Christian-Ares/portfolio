@@ -4,12 +4,13 @@
     justify-items: center;
     flex-direction: row;
     justify-content: flex-end;
-    background-color: aqua;
+    background-color: #D4E2D4;
     position: fixed;
     width: 100%;
     height: 50px;
     top: 0;
     z-index: 10;
+    color: #DF7861;
 }
     
 .navbarLinks li{
