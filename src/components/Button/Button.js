@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 import { AwesomeButton } from "react-awesome-button";
-// import AwesomeButtonStyles from "react-awesome-button/src/styles/styles.scss";
-import styles from "react-awesome-button/src/styles/themes/theme-rickiest"
+import styles from "react-awesome-button/src/styles/themes/theme-rickiest";
 
+// import AwesomeButtonStyles from "react-awesome-button/src/styles/styles.scss";
 // Necesario Node-Sass version 4.14.1 para que funcione
 
 const Button = () => {

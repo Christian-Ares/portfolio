@@ -1,6 +1,8 @@
 import React from 'react';
-import Typical from 'react-typical'
-import Button from "../Button/Button"
+import Typical from 'react-typical';
+// import Button from "../Button/Button";
+// import { AwesomeButton } from "react-awesome-button";
+// import styles from "react-awesome-button/src/styles/themes/theme-rickiest";
 
 import './Aboutme.css'
 
@@ -29,9 +31,13 @@ export const AboutMe = () => {
                             I love teamwork, working hard and with dedication, leaning on my colleagues to achieve all the goals we set ourselves.
                             My goal is to work as a Full Stack Developer in a company where I can train and grow, both as a developer and as a person.
                             </p>
-                            {/* <button>Resume</button> */}
-                            <Button>Resume</Button>
-
+                            <button>Resume</button>
+                            {/* <Button>Resume</Button> */}
+                            {/* <AwesomeButton
+                            size="small"
+                            cssModule={styles} 
+                            type="anchor"> Resume
+                            </AwesomeButton> */}
                         </div>
                     </article>
                     
