@@ -8,10 +8,12 @@ import './Proyectos.css'
 export const Proyectos = () => {
     return (
         <div className="projects">
-        <h2>Projects</h2>
-            <Proyecto1 />
-            <Proyecto2 />
-            <Proyecto3 />
+            <div className="main">
+                <h1>Projects</h1>
+                    <Proyecto1 />
+                    <Proyecto2 />
+                    <Proyecto3 />
+            </div>
         </div>
     )
 }

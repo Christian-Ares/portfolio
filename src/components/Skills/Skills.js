@@ -6,7 +6,6 @@ export const Skills = () => {
     return (
         <div className="skills">
             <h1>Skills</h1>
-                <h3>Tech Skills</h3>
                     <div className="parent">
                         <span className="iconify span1" data-icon="logos:react" data-inline="false"></span>
                         <span className="iconify span2" data-icon="logos:html-5" data-inline="false"></span>

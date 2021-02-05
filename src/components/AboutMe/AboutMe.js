@@ -11,13 +11,12 @@ export const AboutMe = () => {
         <div className="aboutMe" id="aboutMe">
             <h1>About Me</h1>
             <p>Hi! My name's Christian</p>
-            <p>I'm a...
+            <p>I'm a...</p>
                 <Typical
                 steps={['Full Stack Developer', 1000, 'Back End Developer', 500, 'Front End Developer', 250]}
                 loop={Infinity}
                 />
 
-            </p>    
                 <section className="container">
 
                     <article className="img-text">
