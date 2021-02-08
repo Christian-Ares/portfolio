@@ -26,7 +26,7 @@ export const AboutMe = () => {
                             I love teamwork, working hard and with dedication, leaning on my colleagues to achieve all the goals we set ourselves.
                             My goal is to work as a Full Stack Developer in a company where I can train and grow, both as a developer and as a person.
                             </p>
-                            <button><a href="docs/Resume_Christian_Ares_Full.pdf" download="ChristianAresCV">Download Resume</a></button>
+                            <a href="docs/Resume_Christian_Ares_Full.pdf" download="ChristianAresCV" className="resume"><span>Download Resume</span></a>
                         </div>
                     </article>
                 </section>
