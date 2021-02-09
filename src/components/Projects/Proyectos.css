@@ -26,3 +26,53 @@
     align-items: center;
 }
 
+
+.projectLink{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-left: 2px;
+  }
+  
+  a span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .projectLink:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(97, 6, 243, 0.3);
+    transition: all .35s;
+  }
+  
+  .projectLink:hover{
+    color: rgb(206, 240, 13);
+  }
+  
+  .projectLink:hover:after{
+    width: 100%;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+  }
+
+  .links{
+      display: flex;
+      flex: row;
+  }

@@ -65,12 +65,12 @@ a span{
   left: 0;
   width: 0;
   height: 100%;
-  background-color: rgba(236, 179, 144,.5);
+  background-color: rgba(236, 179, 144,.3);
   transition: all .35s;
 }
 
 .resume:hover{
-  color: #fff;
+  color: rgb(223, 120, 97);
 }
 
 .resume:hover:after{
