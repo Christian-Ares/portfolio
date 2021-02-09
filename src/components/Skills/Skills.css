@@ -9,15 +9,54 @@
     grid-column-gap: 10px;
     grid-row-gap: 12px;
     justify-items: center;
+    border: 1px solid black;
+}
+    
+/* Terminar medias para hacerlo responsive o medio responsive al menos */
+
+@media only screen and (max-width: 720px) {
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(5, 2fr);
+            grid-template-rows: repeat(2, 3fr) repeat(3, 0fr);
+            grid-column-gap: 10px;
+            grid-row-gap: 12px;
+            justify-items: center;
+            background-color: aqua;
+        }
+      }
+
+@media only screen and (max-width: 400px) {
+    .parent{
+        display: grid;
+        grid-template-columns: repeat(4, 3fr);
+        grid-template-rows: repeat(4, 3fr) repeat(3, 0fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 12px;
+        justify-items: center;
+        background-color: blueviolet;
+    }
+
+    .span1 { grid-area: 1 / 1 / 2 / 2; }
+    .span2 { grid-area: 1 / 2 / 2 / 3; }
+    .span3 { grid-area: 3 / 3 / 2 / 4; }
+    .span4 { grid-area: 3 / 4 / 2 / 5; }
+    .span5 { grid-area: 3 / 5 / 2 / 6; }
+    .span6 { grid-area: 2 / 1 / 3 / 2; }
+    .span7 { grid-area: 2 / 2 / 3 / 3; }
+    .span8 { grid-area: 3 / 3 / 3 / 4; }
+    .span9 { grid-area: 3 / 4 / 3 / 5; }
+    .span10 { grid-area: 2 / 5 / 3 / 6; }
 }
 
-.span1 { grid-area: 1 / 1 / 2 / 2; }
-.span2 { grid-area: 1 / 2 / 2 / 3; }
-.span3 { grid-area: 1 / 3 / 2 / 4; }
-.span4 { grid-area: 1 / 4 / 2 / 5; }
-.span5 { grid-area: 1 / 5 / 2 / 6; }
-.span6 { grid-area: 2 / 1 / 3 / 2; }
-.span7 { grid-area: 2 / 2 / 3 / 3; }
-.span8 { grid-area: 2 / 3 / 3 / 4; }
-.span9 { grid-area: 2 / 4 / 3 / 5; }
-.span10 { grid-area: 2 / 5 / 3 / 6; }
+
+.span1 { grid-area: 1 / 1 / 2 / 2;border: 1px solid black; }
+.span2 { grid-area: 1 / 2 / 2 / 3;border: 1px solid black; }
+.span3 { grid-area: 1 / 3 / 2 / 4;border: 1px solid black; }
+.span4 { grid-area: 1 / 4 / 2 / 5;border: 1px solid black; }
+.span5 { grid-area: 1 / 5 / 2 / 6;border: 1px solid black; }
+.span6 { grid-area: 2 / 1 / 3 / 2; border: 1px solid black;}
+.span7 { grid-area: 2 / 2 / 3 / 3;border: 1px solid black; }
+.span8 { grid-area: 2 / 3 / 3 / 4;border: 1px solid black; }
+.span9 { grid-area: 2 / 4 / 3 / 5;border: 1px solid black; }
+.span10 { grid-area: 2 / 5 / 3 / 6; border: 1px solid black;}

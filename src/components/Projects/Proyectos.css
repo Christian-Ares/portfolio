@@ -43,7 +43,7 @@
     transition: all .35s;
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
-    margin-left: 2px;
+        margin-left: 4px;
   }
   
   a span{
@@ -60,6 +60,8 @@
     height: 100%;
     background-color: rgba(97, 6, 243, 0.3);
     transition: all .35s;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
   }
   
   .projectLink:hover{
