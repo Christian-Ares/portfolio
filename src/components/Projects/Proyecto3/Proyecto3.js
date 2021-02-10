@@ -12,8 +12,13 @@ export const Proyecto3 = () => {
             </div>
             <br/>
                 <div className="buttons">
+                <h3>Mi Primer Paso</h3>
+                <br/>
                     <p><strong>
-                    Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.
+                    This project is the beginning of a dream to own a children's school.
+                    It's an SPA used to recreate a page for a children's school.
+                    <br/>
+                    Technologies: ReactJS, MongoDB, NodeJS and deployes in Netlify.
                     </strong></p>
                 <br/>
                 <div className="links">

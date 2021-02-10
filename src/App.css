@@ -31,3 +31,7 @@ h1{
   padding: 15px;
   color:rgb(223, 121, 98);
 }
+
+h3{
+  text-decoration-line: underline;
+}
