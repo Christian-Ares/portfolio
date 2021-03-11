@@ -60,14 +60,14 @@
     left: 0;
     width: 0;
     height: 100%;
-    background-color: rgba(97, 6, 243, 0.3);
+    background-color: rgba(250, 235, 215,.6);
     transition: all .35s;
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
   }
   
   .projectLink:hover{
-    color: rgb(206, 240, 13);
+    color: rgb(0,0,0);
   }
   
   .projectLink:hover:after{
