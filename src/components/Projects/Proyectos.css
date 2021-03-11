@@ -1,5 +1,5 @@
 .projects{
-    background-color: rgb(236, 179, 144);
+  background-color: rgb(236, 179, 144);
 }
 
 .projects img{
@@ -79,4 +79,27 @@
   .links{
       display: flex;
       flex: row;
+  }
+
+  @media (max-width: 1100px) {
+    .project {
+      flex-direction: column;
+    }
+
+    .projects img {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+
+  @media (max-width: 649px) {
+    .projects img {
+      width: 75%;
+    }
+  }
+
+  @media (max-width: 497px) {
+    .projects img {
+      width: 50%;
+    }
   }

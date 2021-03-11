@@ -21,7 +21,6 @@
             grid-column-gap: 10px;
             grid-row-gap: 12px;
             justify-items: center;
-            background-color: aqua;
         }
       }
 
@@ -33,7 +32,6 @@
         grid-column-gap: 10px;
         grid-row-gap: 12px;
         justify-items: center;
-        background-color: blueviolet;
     }
 
     .span1 { grid-area: 1 / 1 / 2 / 2; }

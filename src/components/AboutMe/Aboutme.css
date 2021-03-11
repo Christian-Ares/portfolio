@@ -80,3 +80,13 @@ a span{
   border-bottom-right-radius: 15px;
   border-top-left-radius: 15px;
 }
+
+@media (max-width: 640px) {
+	.img-text{
+		flex-direction: column;
+}
+
+	.button-text{
+		margin: 0px;
+}
+}
