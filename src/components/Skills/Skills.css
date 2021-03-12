@@ -22,8 +22,6 @@
 .span9 { grid-area: 2 / 4 / 3 / 5; }
 .span10 { grid-area: 2 / 5 / 3 / 6; }
 
-/* Terminar medias para hacerlo responsive o medio responsive al menos */
-
 @media only screen and (max-width: 720px) {
     .parent {
         display: grid;

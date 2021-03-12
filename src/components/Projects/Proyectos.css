@@ -8,7 +8,6 @@
     margin-top: 20px;
     border-radius: 10px;
     margin-left: 20px;
-    /* media query para reducir el width de las imagenes */
 }
 
 .main{
@@ -25,7 +24,6 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    /* media query flex column on responsive */
 }
 
 
@@ -86,6 +84,11 @@
   }
 
   @media (max-width: 1100px) {
+
+    .buttons h3 {
+      text-align: center;
+    }
+
     .project {
       flex-direction: column;
     }
@@ -98,6 +101,24 @@
 
   @media (max-width: 649px) {
     .projects img {
-      width: 75%;
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 350px) {
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      text-align: justify;
+    }
+
+    .buttons h3 {
+      text-align: center;
+    }
+
+    .buttons span {
+      font-size: 15px;
+      font-weight: 700;
     }
   }
