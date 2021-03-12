@@ -5,11 +5,12 @@ export const Proyecto1 = () => {
 
     return (
         <div className="project">
-            <>
-                <Tilty style={{width:639, heigth:397}} reset={true}>
+            <div className="tilty-container">
+                {/* <Tilty style={{width:639, heigth:397}} reset={true}> */}
+                <Tilty>
                     <img src="/images/The-Legend-of-Ironhacker.jpg" alt="The Legend of Ironhacker" />
                 </Tilty>
-            </>
+            </div>
 
         <br/>
 
