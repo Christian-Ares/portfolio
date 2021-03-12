@@ -1,124 +1,124 @@
+a span{
+  position: relative;
+  z-index: 2;
+}
+
+.buttons{
+  width: 350px;
+  text-align: justify;
+}
+
+.links{
+  display: flex;
+      flex: row;
+}
+
+.main{
+    padding: 10px;
+}
+
+.project{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.projectLink{
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  margin-left: 4px;
+}
+
+.projectLink:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: rgba(250, 235, 215,.6);
+  transition: all .35s;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.projectLink:hover{
+  color: rgb(0,0,0);
+}
+
+.projectLink:hover:after{
+  width: 100%;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+  
 .projects{
   background-color: rgb(236, 179, 144);
 }
 
 .projects img{
-    width: 639px;
-    height: 397px;
-    margin-top: 20px;
-    border-radius: 10px;
-    margin-left: 20px;
+  width: 639px;
+  height: 397px;
+  margin-top: 20px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+  
+.tilty-container div {
+  height: auto;
 }
 
-.main{
-    padding: 25px;
-}
+@media (max-width: 1100px) {
 
-.buttons{
-    width: 350px;
-    text-align: justify;
-}
-
-.project{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-
-.projectLink{
-    display: block;
-    width: 200px;
-    height: 40px;
-    line-height: 40px;
-    font-size: 18px;
-    font-family: sans-serif;
-    text-decoration: none;
-    color: #333;
-    border: 2px solid #333;
-    letter-spacing: 2px;
+  .buttons h3 {
     text-align: center;
-    position: relative;
-    transition: all .35s;
-    border-bottom-right-radius: 15px;
-    border-top-left-radius: 15px;
-    margin-left: 4px;
   }
-  
-  a span{
-    position: relative;
-    z-index: 2;
+
+  .project {
+    flex-direction: column;
   }
-  
-  .projectLink:after{
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background-color: rgba(250, 235, 215,.6);
-    transition: all .35s;
-    border-bottom-right-radius: 15px;
-    border-top-left-radius: 15px;
-  }
-  
-  .projectLink:hover{
-    color: rgb(0,0,0);
-  }
-  
-  .projectLink:hover:after{
+
+  .projects img {
     width: 100%;
-    border-bottom-right-radius: 15px;
-    border-top-left-radius: 15px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 649px) {
+
+  .projects img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 350px) {
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: justify;
   }
 
-  .links{
-      display: flex;
-      flex: row;
+  .buttons h3 {
+    text-align: center;
   }
 
-  .tilty-container div {
-    height: auto;
+  .buttons span {
+    font-size: 15px;
+    font-weight: 700;
   }
-
-  @media (max-width: 1100px) {
-
-    .buttons h3 {
-      text-align: center;
-    }
-
-    .project {
-      flex-direction: column;
-    }
-
-    .projects img {
-      width: 100%;
-      margin-left: 0;
-    }
-  }
-
-  @media (max-width: 649px) {
-    .projects img {
-      width: 100%;
-    }
-  }
-
-  @media (max-width: 350px) {
-    .buttons {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      text-align: justify;
-    }
-
-    .buttons h3 {
-      text-align: center;
-    }
-
-    .buttons span {
-      font-size: 15px;
-      font-weight: 700;
-    }
-  }
+}

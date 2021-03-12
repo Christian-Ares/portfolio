@@ -1,7 +1,3 @@
-.skills{
-    background-color: antiquewhite;
-}
-
 .parent {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -10,7 +6,11 @@
     row-gap: 12px;
     justify-items: center;
 }
-    
+
+.skills{
+    background-color: antiquewhite;
+}
+
 .span1 { grid-area: 1 / 1 / 2 / 2; }
 .span2 { grid-area: 1 / 2 / 2 / 3; }
 .span3 { grid-area: 1 / 3 / 2 / 4; }
@@ -22,7 +22,7 @@
 .span9 { grid-area: 2 / 4 / 3 / 5; }
 .span10 { grid-area: 2 / 5 / 3 / 6; }
 
-@media only screen and (max-width: 720px) {
+@media (max-width: 720px) {
     .parent {
         display: grid;
         grid-template-columns: repeat(5, 2fr);

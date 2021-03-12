@@ -16,9 +16,13 @@ a:hover, a:visited, a:link, a:active {
   color: black;
 }
 
-ul {
-  list-style: none;
-  display: flex;
+h1{
+  padding: 15px;
+  color:rgb(223, 121, 98);
+}
+
+h3{
+  text-decoration-line: underline;
 }
 
 .iconify { 
@@ -30,11 +34,7 @@ img {
   border-radius: 5px;
 }
 
-h1{
-  padding: 15px;
-  color:rgb(223, 121, 98);
-}
-
-h3{
-  text-decoration-line: underline;
+ul {
+  list-style: none;
+  display: flex;
 }

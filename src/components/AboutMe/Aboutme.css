@@ -1,3 +1,8 @@
+a span{
+  position: relative;
+  z-index: 2;
+}
+
 .aboutMe{
     background-color: #D4E2D4;
     margin-top: 50px;
@@ -5,6 +10,14 @@
     flex-direction: column;
     width: auto;
 
+}
+
+.button-text{
+  padding: 0 15px;
+  margin: 0 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .container{
@@ -16,26 +29,12 @@
     width: 639px;
 }
 
-.photo{
-    width: auto;
-    height: 250px;
-}
-
 .img-text{
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    text-align: justify;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  text-align: justify;
 }
-
-.button-text{
-    padding: 0 15px;
-    margin: 0 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 
 .resume{
   display: block;
@@ -56,10 +55,6 @@
   border-top-left-radius: 15px;
 }
 
-a span{
-  position: relative;
-  z-index: 2;
-}
 
 .resume:after{
   position: absolute;
@@ -82,12 +77,18 @@ a span{
   border-top-left-radius: 15px;
 }
 
+.photo{
+  width: auto;
+  height: 250px;
+}
+
 @media (max-width: 640px) {
+
 	.img-text{
 		flex-direction: column;
-}
+  }
 
 	.button-text{
 		margin: 0px;
-}
+  }
 }
