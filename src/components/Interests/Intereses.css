@@ -2,7 +2,7 @@
     background-color: rgb(250, 235, 215);
 }
 
-.parentSkills {
+.parentInterests {
     margin: 0 100px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
