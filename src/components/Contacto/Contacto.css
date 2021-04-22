@@ -6,9 +6,13 @@
     padding: 25px;
 }
 
+h4{
+ margin-top: 10px;
+}
+
 .logo{
     width: auto;
-    height: 30px; 
+    height: 50px; 
     padding: 0 8px;
 }
 

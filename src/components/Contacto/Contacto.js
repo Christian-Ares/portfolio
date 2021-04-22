@@ -13,7 +13,7 @@ export const Contacto = () => {
                         <a href="https://www.linkedin.com/in/christian-ares/"><img src="/images/LI-In-Bug.png" alt="LinkedIn Logo" className="logo"></img></a>
                     </div>
                     
-                    <h5>Created by Christian Ares</h5>
+                    <h4>Created by Christian Ares</h4>
             </div>        
         </div>
     )
